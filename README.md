@@ -17,7 +17,7 @@ let sum = [1, 2, 3, 4].reduce(0) { $0 + $1 }
 옵셔널 선언 시 ! 선언은 무엇인가?
 
 ```swift
-let a: Int! = 234 //Optional<234>
+let a: Int! = 234 // Optional<234>
 let b: Int = 34
 
 print(a + b)
