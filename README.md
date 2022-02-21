@@ -35,3 +35,11 @@ var arr = [[0, 3], [1, 9], [2, 6]]
 print(arr[1][1]) // 9
 ```
 
+***
+
+## Substring
+
+A slice of a string.
+
+***
+
