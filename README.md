@@ -63,6 +63,7 @@ var sortedArr = arr.sorted()
 
 print(arr) // 변함없음
 print(sortedArr) // [2, 9, 24, 36, 45]
+```
 
 ***
 
