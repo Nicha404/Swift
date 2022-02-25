@@ -43,3 +43,40 @@ A slice of a string.
 
 ***
 
+## sort() vs sorted()
+
+sort는 기본적으로 원본 배열을 가지고 정렬한다.
+```swift
+var arr = [2, 24, 45, 36, 9]
+arr.sort()
+print(arr) // [2, 9, 24, 36, 45]
+
+arr.sort(by: >)
+print(arr) // [45, 36, 24, 9, 2]
+```
+
+sorted는 원본 배열은 건드리지 않고 사본을 만들어서 오름차순으로 정렬한 후 정렬된 요소를 반환해주는 방식이다. 내림차순 방식은 sort와 똑같다.
+
+```swift
+var arr = [2, 24, 45, 36, 9]
+var sortedArr = arr.sorted()
+
+print(arr) // 변함없음
+print(sortedArr) // [2, 9, 24, 36, 45]
+
+***
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
