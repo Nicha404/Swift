@@ -67,6 +67,8 @@ print(sortedArr) // [2, 9, 24, 36, 45]
 
 ***
 
+## Int 
+
 ```swift
 let a: Int = 17
 print(a / 5)
