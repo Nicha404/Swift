@@ -67,6 +67,14 @@ print(sortedArr) // [2, 9, 24, 36, 45]
 
 ***
 
+```swift
+let a: Int = 17
+print(a / 5)
+// 3
+```
+
+***
+
 
 
 
