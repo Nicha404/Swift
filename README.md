@@ -77,6 +77,17 @@ print(a / 5)
 
 ***
 
+## 배열 최빈값
+
+```swift
+let items = [1, 1, 1, 2, 2, 2, 2]
+let mappedItems = items.map { ($0, 1) }
+let counts = Dictionary(mappedItems, uniquingKeysWith: +)
+print(counts.max(by: { $0.value < $1.value })!.key)
+// 2
+```
+
+
 
 
 
