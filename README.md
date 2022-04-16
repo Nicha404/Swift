@@ -103,6 +103,7 @@ print(s) // Swi
 ## sort 메커니즘
 
 https://greendreamtrre.tistory.com/406
+
 sort는 버블 정렬식으로 두 수를 비교하여 점차 뒤로 움직인다.
 
 ```swift
