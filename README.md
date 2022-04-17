@@ -115,6 +115,12 @@ print(failure.sorted(by: <).sorted(by: { $0.value > $1.value }).map { $0.key })
 
 ***
 
+## 진수 변환
+
+https://zeunny.tistory.com/48
+
+***
+
 
 
 
