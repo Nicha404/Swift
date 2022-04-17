@@ -121,6 +121,22 @@ https://zeunny.tistory.com/48
 
 ***
 
+## zip
+
+zip은 두 개의 시퀀스로 구성된 시퀀스쌍을 만든다.
+
+```swift
+let words = 1...4
+let numbers = 1...4
+
+for (word, number) in zip(words, numbers) {
+    print("\(word): \(number)")
+}
+1: 1
+2: 2
+3: 3
+4: 4
+```
 
 
 
