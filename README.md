@@ -132,6 +132,7 @@ let numbers = 1...4
 for (word, number) in zip(words, numbers) {
     print("\(word): \(number)")
 }
+
 1: 1
 2: 2
 3: 3
