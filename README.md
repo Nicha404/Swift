@@ -20,7 +20,7 @@ let sum = [1, 2, 3, 4].reduce(0) { $0 + $1 }
 let a: Int! = 234 // Optional<234>
 let b: Int = 34
 
-print(a + b)
+print(a + b) 
 // 268
 ``` 
 
