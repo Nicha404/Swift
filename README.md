@@ -138,8 +138,13 @@ for (word, number) in zip(words, numbers) {
 3: 3
 4: 4
 ```
+***
 
+## inout
 
+https://hyunsikwon.github.io/swift/Swift-Inout-01/
+
+***
 
 
 
