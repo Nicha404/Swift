@@ -148,6 +148,10 @@ https://hyunsikwon.github.io/swift/Swift-Inout-01/
 
 ## guard let
 
+https://jud00.tistory.com/entry/오늘의-Swift-지식-if-let-과-guard-let의-차이는
+
+***
+
 
 
 
