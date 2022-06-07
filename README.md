@@ -152,6 +152,20 @@ https://jud00.tistory.com/entry/오늘의-Swift-지식-if-let-과-guard-let의-�
 
 ***
 
+## Set
+
+```swift
+var a: Set<Int> = [1, 2, 3]
+a.remove(1)
+
+print(a) // [2, 3]
+```
+
+You can remove specific numbers in Set
+
+***
+
+
 
 
 
