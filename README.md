@@ -165,6 +165,16 @@ You can remove specific numbers in Set
 
 ***
 
+## enumerate 예
+
+```swift
+let a = "try hello world"
+let b = a.components(separatedBy: " ").map { $0.enumerated().map { $0.element } }
+print(b)
+// [["t", "r"], ["h", "e", "l", "l", "o"], ["w", "o", "r", "l", "d"]]
+```
+
+
 
 
 
