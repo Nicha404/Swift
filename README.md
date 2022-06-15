@@ -4,7 +4,7 @@
 
 ## reduce   
 
-```swift 
+```swift  
 let sum = [1, 2, 3, 4].reduce(0) { $0 + $1 } 
 ```
 
