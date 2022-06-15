@@ -1,6 +1,6 @@
 # Swift
 
-***
+*** 
 
 ## reduce   
 
