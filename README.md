@@ -228,8 +228,9 @@ print(a.flatMap { $0 }) // [2, 2, 3, 3, 3, 34]
 
 ```swift
 var arrTwoDimension = [[Int]]()
+var arrTwoDimension: [[Int]] = []
 ```
-왼쪽에서 선언하니까 배열 추가할때 빈 배열이 생김. 그냥 오른쪽에서 선언하자. 왜 그런지는 더 알아봐야겠음.
+
 
 ***
 
