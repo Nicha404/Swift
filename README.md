@@ -87,6 +87,11 @@ dict.updateValue(4, forKey: "f")
 
 print(dict)
 // ["f": 4, "d": 3]
+
+var dict: [[Int]: [Int]] = [:]
+dict.updateValue([3, 3], forKey: [3, 3])
+print(dict)
+//[[3, 3]: [3, 3]]
 ```
 ***
 
