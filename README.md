@@ -131,9 +131,9 @@ https://greendreamtrre.tistory.com/406
 sort는 버블 정렬식으로 두 수를 비교하여 점차 뒤로 움직인다.
 
 ```swift
-var failure: [Int: Float] = [1: 1 / 4, 2: 1 / 3, 3: 1 / 2, 4: 1 / 2]
+var failure: [Int: Float] = [1: 1, 2: 2, 4: 3, 3: 2]
 print(failure.sorted(by: <).sorted(by: { $0.value > $1.value }).map { $0.key })
-// [3, 4, 2, 1]
+// [4, 2, 3, 1]
 ```
 이런식으로 이중 sort도 가능하다. 일단 1234로 정렬한 뒤 value값에 따라 두 수를 버블 정렬식으로 비교하면 value값을 내림차순으로 정렬하면서도 value값이 같다면 key 값은 오름차순이 된다.
 
