@@ -196,9 +196,9 @@ You can remove specific numbers in Set
 
 ```swift
 let a = "try hello world"
-let b = a.components(separatedBy: " ").map { $0.enumerated().map { $0.element } }
+let b = a.components(separatedBy: " ").map { $0.enumerated().map { ($0.element, $0.offset) } }
 print(b)
-// [["t", "r"], ["h", "e", "l", "l", "o"], ["w", "o", "r", "l", "d"]]
+// [[("t", 0), ("r", 1), ("y", 2)], [("h", 0), ("e", 1), ("l", 2), ("l", 3), ("o", 4)], [("w", 0), ("o", 1), ("r", 2), ("l", 3), ("d", 4)]]
 ```
 
 ***
