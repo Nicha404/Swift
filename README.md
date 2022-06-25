@@ -1,7 +1,7 @@
 # Swift
 
 ***   
-
+   
 ## reduce    
  
 ```swift   
