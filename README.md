@@ -141,7 +141,10 @@ print(failure.sorted(by: <).sorted(by: { $0.value > $1.value }).map { $0.key })
 
 ## 진수 변환
 
-https://zeunny.tistory.com/48
+```swift
+var n = 123
+let binary = String(n, radix: 2)
+```
 
 ***
 
