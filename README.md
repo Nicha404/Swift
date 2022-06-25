@@ -234,7 +234,7 @@ var arrTwoDimension = [[Int]]()
 ***
 
 ## switch continue
-swich문에서 continue 써도 for문 하나를 건너뛴다.
+switch문에서 continue 써도 for문 하나를 건너뛴다.
 
 ***
 
