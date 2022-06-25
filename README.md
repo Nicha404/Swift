@@ -45,7 +45,7 @@ A slice of a string.
 
 ## sort() vs sorted()
 
-sort는 기본적으로 원본 배열을 가지고 정렬한다.
+sort는 기본적으로 원본 배열을 정렬한다.
 ```swift
 var arr = [2, 24, 45, 36, 9]
 arr.sort()
