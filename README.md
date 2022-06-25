@@ -77,6 +77,19 @@ print(a / 5)
 
 ***
 
+## dictionary
+
+```swift
+var dict: [String: Int] = [:]
+
+dict["d"] = 3
+dict.updateValue(4, forKey: "f")
+
+print(dict)
+// ["f": 4, "d": 3]
+```
+***
+
 ## 배열 최빈값
 
 ```swift
